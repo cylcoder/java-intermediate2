@@ -14,7 +14,7 @@ public class BoxMain3 {
         System.out.println("str = " + str);
 
         // 원하는 모든 타입 사용 가능
-        GenericBox<Double> doubleBox = new GenericBox<Double>;
+        GenericBox<Double> doubleBox = new GenericBox<>();
         doubleBox.set(10.5);
         Double doubleValue = doubleBox.get();
         System.out.println("doubleValue = " + doubleValue);
