@@ -13,6 +13,8 @@ public class ComplexBox <T extends Animal> {
     public <T> T printAndReturn(T t) {
         System.out.println("animal.className = " + animal.getClass().getName());
         System.out.println("t.getClass().getName() = " + t.getClass().getName());
+        System.out.println("ComplexBox.printAndReturn");
+
         return t;
     }
 
