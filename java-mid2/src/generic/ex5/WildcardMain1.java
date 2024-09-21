@@ -12,6 +12,7 @@ public class WildcardMain1 {
         Box<Cat> catBox = new Box<>();
 
         dogBox.set(new Dog("멍멍이", 100));
+        catBox.set(new Cat("냐옹이", 200));
 
         WildcardEx.printGenericV1(dogBox);
         WildcardEx.printWildcardV1(dogBox);
@@ -20,6 +21,8 @@ public class WildcardMain1 {
         WildcardEx.printWildcardV2(dogBox);
 
         Dog dog = WildcardEx.printAndReturn(dogBox);
+        Cat cat = WildcardEx.printAndReturn(catBox);
+
         Animal animal = WildcardEx.printAndReturnWildcard(dogBox);
     }
 
