@@ -4,8 +4,6 @@ import generic.animal.Animal;
 import generic.animal.Cat;
 import generic.animal.Dog;
 
-import java.nio.charset.StandardCharsets;
-
 public class WildcardMain2 {
 
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package generic.test.ex3;
 
 import generic.test.ex3.BioUnit.BioUnit;
-import generic.test.ex3.BioUnit.Marine;
 
 public class UnitUtil {
 
